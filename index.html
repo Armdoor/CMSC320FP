@@ -681,18 +681,7 @@ class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a hr
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>data.drop(<span class="st">&#39;region&#39;</span>, axis<span class="op">=</span><span class="dv">1</span>, inplace<span class="op">=</span><span class="va">True</span>)</span>
 <span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;state&#39;</span>] <span class="op">=</span> data[<span class="st">&#39;state&#39;</span>].<span class="bu">apply</span>(<span class="kw">lambda</span> x: x.upper())</span></code></pre></div>
 <div class="output stream stderr">
-<pre><code>&lt;ipython-input-5-df9f8385ac89&gt;:2: SettingWithCopyWarning: 
-A value is trying to be set on a copy of a slice from a DataFrame
-
-See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-  data.drop(&#39;region&#39;, axis=1, inplace=True)
-&lt;ipython-input-5-df9f8385ac89&gt;:3: SettingWithCopyWarning: 
-A value is trying to be set on a copy of a slice from a DataFrame.
-Try using .loc[row_indexer,col_indexer] = value instead
-
-See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-  data[&#39;state&#39;] = data[&#39;state&#39;].apply(lambda x: x.upper())
-</code></pre>
+<pre></pre>
 </div>
 </div>
 <div class="cell markdown" id="td5RbcDdcs4o">
